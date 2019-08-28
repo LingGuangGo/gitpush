@@ -10,3 +10,19 @@ $ git commit -m "first git push"	// commit提交， “log”
 $ git push -u origin master 		// push 上传
 ```
 
+## 更新和合并
+
+```
+git fetch		// 下拉改变的文件
+git merge		// 和本地文件进行合并
+
+git pull		// 一般不使用，会覆盖本地文件
+```
+
+## 建立分支
+
+```
+git branch dev		// 建立一个目录分支
+git checkout dev	// 切换到dev目录
+```
+
