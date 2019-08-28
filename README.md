@@ -24,5 +24,7 @@ git pull		// 一般不使用，会覆盖本地文件
 ```
 git branch dev		// 建立一个目录分支
 git checkout dev	// 切换到dev目录
+
+push的时候注意更改目录
 ```
 
