@@ -24,7 +24,14 @@ git pull		// 一般不使用，会覆盖本地文件
 ```
 git branch dev		// 建立一个目录分支
 git checkout dev	// 切换到dev目录
-
 push的时候注意更改目录
+```
+
+## 分支合并
+
+```
+git checkout master  // 切换到主目录，进行合并
+git merge			// 合并
+git push			// 直接进行提交
 ```
 
